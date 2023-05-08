@@ -1,0 +1,33 @@
+Bad User Agent,URL,Session Date,Session Time
+curl/7.83.1,http://localhost:5000/,26-02-2023,18:05:56
+Scrapy/2.8.0 (+https://scrapy.org),http://localhost:5000/,26-02-2023,18:10:35
+MJ12Bot,http://localhost:5000/,26-02-2023,18:12:55
+Googlebot,http://localhost:5000/,26-02-2023,18:13:06
+PetalBot/AspiegelBot,http://localhost:5000/login,2023-02-26,18:18:43
+curl/7.83.1,http://localhost:5000/,2023-02-27,10:28:17
+curl/7.83.1,http://localhost:5000/,2023-02-27,10:42:51
+Scrapy/2.8.0 (+https://scrapy.org),http://localhost:5000/,2023-02-27,10:44:03
+curl/7.83.1,http://localhost:5000/,2023-04-08,14:20:03
+curl/7.83.1,http://localhost:5000/,2023-04-08,15:00:00
+aibot,http://localhost:5000/,2023-04-08,15:01:06
+domcobot,http://localhost:5000/,2023-04-08,15:01:23
+curl/7.83.1,http://localhost:5000/,2023-04-08,15:03:28
+curl/7.83.1,http://localhost:5000/,2023-04-08,15:03:43
+curl/7.83.1,http://localhost:5000/,2023-04-08,15:03:55
+curl/7.83.1,http://localhost:5000/,2023-04-08,15:04:14
+curl/7.83.1,http://localhost:5000/,2023-04-08,15:11:28
+curl/7.83.1,http://localhost:5000/,2023-04-08,15:12:00
+curl/7.83.1,http://localhost:5000/,2023-04-08,15:12:10
+curl/7.83.1,http://localhost:5000/,2023-04-08,15:13:06
+gokul,http://localhost:5000/,2023-04-08,15:13:34
+curl/7.83.1,http://localhost:5000/,2023-04-08,23:24:58
+curl/7.83.1,http://localhost:5000/,2023-04-08,23:26:02
+curl/7.83.1,http://localhost:5000/,2023-04-08,23:26:13
+curl/7.83.1,http://localhost:5000/,2023-04-08,23:28:17
+curl/7.83.1,http://localhost:5000/,2023-04-08,23:43:41
+aibot,http://localhost:5000/,2023-04-08,23:46:59
+curl/7.83.1,http://localhost:5000/,2023-04-08,23:56:06
+curl/7.83.1,http://localhost:5000/,2023-04-08,23:57:46
+curl/8.0.1,http://localhost:5000/,2023-04-12,11:49:19
+curl/8.0.1,http://localhost:5000/,2023-04-24,21:24:39
+aibot,http://localhost:5000/,2023-04-24,21:44:47

